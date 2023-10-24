@@ -27,3 +27,19 @@
 //        STRINGS
 //=======================
 
+// 1. Create a variable called firstVariable
+let firstVariable
+// 2.Assign it the value of the string "Hello World"
+firstVariable = "Hello World"
+// 3. Change the value of this variable to some number
+firstVariable = 12
+// 4. Store the value of firstVariablein a new variable called secondVariable
+let secondVariable = firstVariable
+// 5. Change the value of secondVariableto any string.
+secondVariable = "prescholas"
+// 6.What is the value of firstVariable?
+// 12
+// 7. Create a variable called yourNameand set it equal to your name as a string. Then, write an expression that takes the string "Hello, my name is " and the variable yourNameso that it returns a new string with them concatenated.
+const yourName = "Pranusha"
+// console.log("Hello, my name is "+yourName)
+let newString = "Hello, my name is "+yourName

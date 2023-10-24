@@ -92,7 +92,7 @@
 // else
 // console.log("Sorry, you're too young.")
 
-// ============
+ // ============
 // LOOPS
 // ============
 // 1. Write a loop that will print out all the numbers from 0 to 10, inclusive
@@ -100,11 +100,62 @@
 // for(let i =0; i <= 10; i++){
 //     console.log(i)
 // }
-// // 2.Write a loop that will print out all the numbers from 10 up to and including 400
+// // // 2.Write a loop that will print out all the numbers from 10 up to and including 400
 // for(let i = 10; i <= 400; i++){
 //     console.log(i)
 // }
-// 3.Write a loop that will print out every third number starting with 12 and going no higher than 4000
-for(i = 12; i < 4000; i += 3){
-    console.log(i)
+// // 3.Write a loop that will print out every third number starting with 12 and going no higher than 4000
+// for(i = 12; i < 4000; i += 3){
+//     console.log(i)
+// }
+
+// ===============
+// GET EVEN
+// ===============
+// 1.Print out the numbers that are within the range of 1 - 100
+//  for(let i = 0; i <= 100; i++){
+//     console.log(i)   
+//  }
+//  2.Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
+
+// for(let i = 0; i <= 100; i++){
+    
+//     if(i % 2 === 0){
+//         console.log(i+"<-- is an even number" )
+//     }  
+//     else{ 
+//         console.log(i)
+//     } 
+//  }
+// =================
+// 5. Give me Five
+// ===================
+//1.For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five
+// for(let i = 0; i <= 100; i++){
+//     if(i % 5 === 0){
+//         console.log('I found : ' + i + ". High five!" )
+//     }    
+// }
+// 1.For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five
+// for(let i = 0; i <= 100; i++){
+//     if(i % 5 === 0){
+//         console.log('I found : ' + i + ". High five!" )
+//     }
+//      else if(i % 3 === 0){
+//         console.log('I found : ' + i + ". three is a crowd")
+//      }   
+// }
+// 1.For numbers divisible by both three and five, be sure your code prints both messages
+for(let i = 0; i <= 100; i++){
+    if(i % 5 === 0 && i % 3 === 0){
+        console.log(`I found : ${i} high five and three is a crowd`)
+    }
+     else if(i % 3 === 0){
+        console.log('I found : ' + i + ". three is a crowd")
+     }  
+     else if( i % 5 === 0){
+        console.log('I found : ' + i + ". High five!" )
+        
+
+     } 
 }

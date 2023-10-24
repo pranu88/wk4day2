@@ -65,3 +65,29 @@ console.log(e === 'Kevin');
 console.log(a + b === c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 console.log(a * a === d); // note: the answer is a simple arithmetic equation, not something "weird"
 console.log(48 !== '48')
+
+// ==================
+// THE FARM
+// ==================
+
+// 1.Declare a variable animal. Set it to be either "cow" or something else
+let animal = "cow"
+// 2.Write code that will print out "mooooo" if the it is equal to cow
+
+// 3.Change your code so that if the variable animalis anything other than a cow, it will print "Hey! You're not a cow."
+if(animal === "cow"){
+    console.log("mooooo")
+}
+else console.log("Hey! You're not a cow.")
+
+// =================
+// DRIVERS ED
+// ================
+// 1.Make a variable that holds a person's age; be semantic
+let age = 16
+// 2.Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
+if(age >= 16){
+    console.log("Here are the keys!")
+}
+else
+console.log("Sorry, you're too young.")
